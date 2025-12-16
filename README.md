@@ -1,1 +1,1 @@
-https://github.com/Jagyar/ono-tebe-nado-fd#
+https://github.com/Jagyar/ono-tebe-nado-fd
