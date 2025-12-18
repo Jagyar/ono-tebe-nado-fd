@@ -14,7 +14,7 @@
       <nav>
         <ul class="header__links-list">
           <li>
-            <a class="header__links-list-item_no-bullit">главная</a>
+            <a class="link-active">главная</a>
           </li>
           <li>
             <a href="#0">посмотреть лоты</a>
@@ -41,14 +41,23 @@
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="cover__first-word">Оно</span>
-          <span class="cover__second-word">Тебе</span>
-            <span class="cover__third-word">Над<span class="no-letter-spacing">о</span>
-  </span>
+          <span class="aligned-text_left">Оно</span>
+          <span class="aligned-text_middle"
+            >Теб<span class="no-letter-spacing">е</span>
+          </span>
+          <span class="aligned-text_right"
+            >Над<span class="no-letter-spacing">о</span>
+          </span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
-            Аукцион вещей, в которые никто не верил
+            <span>Аукцион </span>
+            <span class="cover__description-text-spacing-middle"
+              >вещей, в
+            </span>
+            <span class="cover__description-text-spacing-right"
+              >которые никто не верил</span
+            >
           </p>
           <button class="bet-button">Сделать ставку</button>
         </div>
@@ -57,48 +66,51 @@
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="card card_type_film">
+            <div class="overlay"></div>
             <a class="card-link">
-              <article class="lots_card_description overlay">
-                <p class="card__title">
+              <article class="lots_card_description">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
-                </p>
-                <p class="card__text">
+                </h3>
+                <h3 class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
                   Андерсон?
-                </p>
+                </h3>
               </article>
             </a>
           </li>
           <li class="card card_type_book">
+            <div class="overlay"></div>
             <a class="card-link">
-              <article class="lots_card_description overlay">
-                <p class="card__title">
+              <article class="lots_card_description">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </p>
-                <p class="card__text">
+                </h3>
+                <h3 class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
                   рассказывается о 16 июня 1904 года и об истории литературы,
                   начиная с античных времён. И это всё накладывается на
                   эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
                   Джеймса Джойса?
-                </p>
+                </h3>
               </article>
             </a>
           </li>
           <li class="card card_type_picture">
+            <div class="overlay"></div>
             <a class="card-link">
-              <article class="lots_card_description overlay">
-                <p class="card__title">
+              <article class="lots_card_description">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </p>
-                <p class="card__text">
+                </h3>
+                <h3 class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                   котиков... Сколько бы вы на такое поставили, если бы не знали,
                   что это — одна из революционных работ Кандинского?
-                </p>
+                </h3>
               </article>
             </a>
           </li>
@@ -108,10 +120,7 @@
       <section class="about">
         <div class="about__logo">
           <a class="about__logo-image">
-            <img 
-            src="./images/logo-white.svg" 
-            alt="Логотип"
-            />
+            <img src="./images/logo-white.svg" alt="Логотип" />
           </a>
         </div>
         <h2 class="about__title">Об аукционе</h2>
@@ -138,12 +147,12 @@
       <address class="address footer__address">
         <a class="address_link" href="tel:+99995555555">+9 999 555 5555</a>
         <a class="address_link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p>наб. Принсенграхт 263- 265, Амстердам</p>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav>
         <ul class="footer__menu-list">
           <li>
-            <a>главная</a>
+            <a class="link-active">главная</a>
           </li>
           <li>
             <a href="#0">посмотреть лоты</a>
@@ -156,28 +165,24 @@
       <ul class="footer__social-list">
         <li>
           <a>
-            <img 
-            class="footer__social-icon" 
-            src="./images/yt.svg" 
-            alt="YouTube"
+            <img
+              class="footer__social-icon"
+              src="./images/yt.svg"
+              alt="YouTube"
             />
           </a>
         </li>
         <li>
           <a>
-            <img 
-            class="footer__social-icon" 
-            src="./images/vk.svg" 
-            alt="VK"
-            />
+            <img class="footer__social-icon" src="./images/vk.svg" alt="VK" />
           </a>
         </li>
         <li>
           <a>
-            <img 
-            class="footer__social-icon" 
-            src="./images/pinterest.svg"
-            alt="Pinterest" 
+            <img
+              class="footer__social-icon"
+              src="./images/pinterest.svg"
+              alt="Pinterest"
             />
           </a>
         </li>
